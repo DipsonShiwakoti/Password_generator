@@ -48,5 +48,22 @@ generator.addEventListener("click", function start () {
     
 })
 
+area1.addEventListener("click", function() {
+    let text=area1.textContent
+    navigator.clipboard.writeText(text)
+    .then(() => {
+        alert('Text copied to clipboard: ' + text);
+    })
+
+})
+
+area2.addEventListener("click", function() {
+    let text=area2.textContent
+    navigator.clipboard.writeText(text)
+    .then(() => {
+        alert('Text copied to clipboard: ' + text);
+    })
+
+})
 
 
