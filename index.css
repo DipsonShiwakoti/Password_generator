@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: #1F2937;
+}
+
+.container {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    display: flex;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+h1 {
+    line-height: 2.5rem;
+    letter-spacing: -2.5px;
+    font-size: 3rem;
+    font-family: "Karla", sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+p {
+    font-weight: normal;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: #D5D4D8;
+}
+
+button {
+    margin: 1rem 0 1rem 0;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    border: none;
+    font-weight: medium;
+    padding: 0.7rem;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    background-color: #10B981;
+}
+
+
+.textarea {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: medium;
+    width: fit-content;
+    height: fit-content;
+    margin: 1rem 1rem 0 0rem;
+    padding: 1rem;
+    background-color: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    font-size: 1rem;
+}
